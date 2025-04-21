@@ -6,7 +6,7 @@ It calculates **stretch** and **compression** on your mesh as it deforms, and wr
 **Installation:**
 1. If you're using **Maya 2025.3** copy **Tensify.mll** to "*your Maya installation path\bin\plug-ins*"
 2. For other versions of Maya, you'll need to **compile** the plugin from the **source files** using a supported C++ compiler to generate a **.mll** file for your specific version. Once compiled, copy the file to "*your Maya installation path\bin\plug-ins*" 
-3. Copy the **AEtensifyTemplate.mel** to "*your Maya installation path>\scripts\AETemplates*"
+3. Copy the **AEtensifyTemplate.mel** to "*your Maya installation path\scripts\AETemplates*"
 4. Load the plugin via **Maya Plugin Manager**
 
 **How to Use:**
