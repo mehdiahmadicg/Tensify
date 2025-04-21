@@ -1,0 +1,18 @@
+global proc AEtensifyTemplate(string $nodeName)
+{
+    editorTemplate -beginScrollLayout;
+
+    string $layoutLabel = "Color Remaping";
+    string $colorAttr = $nodeName + ".tensifyColor";
+
+    editorTemplate
+        -beginLayout $layoutLabel
+        -collapse false;
+
+    AEaddRampControl($colorAttr);
+
+    editorTemplate -endLayout;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+}
